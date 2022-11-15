@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headers {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.headers a {
+  margin-right: 30px;
+  color: black;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.headers img {
+  width: 40px;
+  margin-left: 10rem;
+}
+.headers .headers-photo img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 10px;
+}
+
+#Photo {
+  padding: 0 5rem;
+  margin-top: 40px;
+}
+
+.photo-body {
+  position: absolute;
+}
+
+.photo {
+  background-image: url(https://api.xalqbank.az/resized/fit1400x460/center/temp/processing/cashback-main-banner.png);
+  padding: 12rem 0;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.photo .item1 a {
+  background-color: #fff;
+  color: #333;
+  border-color: transparent;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+.photo .item2 a {
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
